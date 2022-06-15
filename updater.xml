@@ -1,28 +1,12 @@
-<item>
-    <title>Version 2.2.1</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.2.1</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-    <sparkle:ignoreSkippedUpgradesBelowVersion>2.2</sparkle:ignoreSkippedUpgradesBelowVersion>
-</item>
-<!-- If the user skipped 2.0 or 2.1, alerts for 2.2 will not be skipped due to sparkle:ignoreSkippedUpgradesBelowVersion requirement -->
-<item>
-    <title>Version 2.2</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.2</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-    <sparkle:ignoreSkippedUpgradesBelowVersion>2.2</sparkle:ignoreSkippedUpgradesBelowVersion>
-</item>
-<item>
-    <title>Version 2.1</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.1</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-</item>
-<!-- Skipping this upgrade will also skip alerts for 2.1 above because it has the same sparkle:minimumAutoupdateVersion -->
-<item>
-    <title>Version 2.0</title>
-    <link>https://myproductwebsite.com</link>
-    <sparkle:version>2.0</sparkle:version>
-    <sparkle:minimumAutoupdateVersion>2.0</sparkle:minimumAutoupdateVersion>
-</item>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Debt Now App - Appcast</title>
+        <item>
+            <title>Version 1.15.0</title>
+            <description>desc</description>
+            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.moonwink.treasury" sparkle:version="1.15.0" sparkle:os="android" />
+        </item>
+    </channel>
+</rss>
