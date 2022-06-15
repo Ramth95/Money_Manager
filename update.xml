@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-        <title>Debt Now App - Appcast</title>
-        <item>
-            <title>Version 1.15.0</title>
-            <description>Minor updates and improvements.</description>
-            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
-            <enclosure url="https://play.google.com/store/apps/details?id=com.snapchat.android" sparkle:version="1.15.0" sparkle:os="android" />
-        </item>
-    </channel>
-</rss>
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>For unit test only</title>
     <item>
         <title>Version 2.0</title>
         <description>desc Версия</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <enclosure url="https://play.google.com/store/apps/details?id=com.snapchat.android" sparkle:version="2.0" />
+        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="2.0" />
         <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
     <!-- The best chosen release -->
@@ -45,7 +33,7 @@
     <item>
         <title>Version 4.0</title>
         <pubDate>Sat, 26 Jul 2014 15:20:13 +0000</pubDate>
-        <enclosure url="https://play.google.com/store/apps/details?id=com.snapchat.android" sparkle:version="4.0" sparkle:os="iOS" />
+        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="4.0" sparkle:os="iOS" />
         <sparkle:minimumSystemVersion>17.0.0</sparkle:minimumSystemVersion>
     </item>
     <!-- A joke release testing maximumSystemVersion -->
